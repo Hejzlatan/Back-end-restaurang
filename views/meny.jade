@@ -1,0 +1,67 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Document
+    // Länk till fontawesome
+    link(rel='stylesheet', href='fontawesome-free-5.15.3-web/css/all.min.css')
+    // Länk till stilmallen
+    link(rel='stylesheet', href='style.css')
+  body
+    // Sidhuvud
+    header.header
+      .logo
+        img(src='images/logo.png', alt='')
+      nav.navbar
+        a(href='index.html') home
+        a(href='menu.html') menu
+        a(href='contact.html') contact
+        a(href='myOrders.html') myOrders
+      .icons
+        #menu-bar.fas.fa-bars
+        a.login-btn(href='#') Login
+        a.sign.up-btn(href='#') Sign up
+    // Menyavsnitt
+    .our-menu-food
+      h1 our menu
+      .main-menu-food
+        .inner-menu-food
+          .menu-food-content
+            img(src='easy-choc-hazelnut-pancakes-160639-1.jpg', alt='')
+            .menu-food-text
+              h2 Easy choc-hazelnut pancakes
+              p
+                | quos animi iusto architecto aliquam dignissimos, molestiae tempora doloremque dolores repellendus! Ab, est voluptatem.
+              p
+                span Price / $1.2
+        .inner-menu-food
+          .menu-food-content
+            img(src='may20_sticky-date-pancakes-with-ice-cream-160786-1.jpg', alt='')
+            .menu-food-text
+              h2 Sticky date pancakes with ice cream
+              p
+                | quos animi iusto architecto aliquam dignissimos, molestiae tempora doloremque dolores repellendus! Ab, est voluptatem.
+              p
+                span Price / $1.2
+        .inner-menu-food
+          .menu-food-content
+            img(src='pancakes-158342-3.jpg', alt='')
+            .menu-food-text
+              h2 Fluffy American style pancakes
+              p
+                | quos animi iusto architecto aliquam dignissimos, molestiae tempora doloremque dolores repellendus! Ab, est voluptatem.
+              p
+                span Price / $1.2
+    .before
+      img(src='images/before footer.png', alt='')
+    .footer
+      .main-footer
+        .footer-logo
+          img(src='images/footerlogo.png', alt='')
+      footernav.footer-navbar
+        a(href='index.html') home
+        a(href='menu.html') menu
+        a(href='contact.html') contact
+        a(href='myOrders.html') myOrders

@@ -1,0 +1,140 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Document
+    // fontawesome länk
+    link(rel='stylesheet', href='fontawesome-free-5.15.3-web/css/all.min.css')
+    // stil länk
+    link(rel='stylesheet', href='style.css')
+  body
+    // Huvudmenyn med logotyp, länkar och ikoner
+    header.header
+      .logo
+        img(src='images/logo.png', alt='')
+      nav.navbar
+        a(href='#') home
+        a(href='menu.html') menu
+        a(href='contact.html') contact
+        a(href='myOrders.html') myOrders
+      .icons
+        #menu-bar.fas.fa-bars
+        a.login-btn(href='#') Login
+        a.sign.up-btn(href='#') Sign up
+    // Huvudsektionen med bild och text
+    .home
+      .main-home
+        .home-inner-content
+          .home-image
+            img(src='Homemade-Pancakes-fork-side.jpg', alt='')
+        .home-inner-content
+          .home-text-content
+            h1 contact us for best pancakes in the world
+            p
+              | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, voluptatem officiis quas illum pariatur, sint amet dignissimos asperiores
+            a(href='contact.html') contact us
+    // Om oss sektionen med bild och text
+    #about.about
+      .main-about
+        .about-content
+          .about-inner-content
+            img.myimageabout(src='Chocolate-Pancakes.jpg', alt='')
+        .about-content
+          .about-inner-content
+            .about-text-content
+              h1 About us
+              p
+                | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sunt assumenda quaerat fugiat nesciunt at, provident quae ipsa! Amet explicabo molestiae perspiciatis ut provident mollitia reprehenderit omnis fuga modi voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi doloremque officiis alias similique beatae illum necessitatibus aliquam, hic, digniss
+    // Kvalitet sektionen med text och bild
+    .quality
+      .main-quality
+        .main-inner-quality
+          .quality-content
+            h1 Our food quality
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam mollitia obcaecati architecto corporis fugit magni molestiae, itaque molestias beatae quas, eveniet nesciunt quia? Molestias, ab error vitae facere quos qui. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi omnis itaque commodi pariatur quia, minima ullam sunt. Sunt, natus magni laborum ipsam, dolor reprehenderit exercitationem consectetur nesciunt error iure odit!
+        .main-inner-quality
+          .quality-content.qulity-image
+            img(src='cannoli-cream-pancakes-web-21-square.jpg', alt='')
+    .gallery
+      // Huvudrubrik för galleri
+      h1 Gallery
+      |  
+      .main-gallery
+        .inner-gallery
+          .gallery-image
+            // Bild 1 i galleriet
+            img(src='images/gallery1.png', alt='')
+        .inner-gallery
+          .gallery-image
+            // Bild 2 i galleriet
+            img(src='images/gallery2.png', alt='')
+        .inner-gallery
+          .gallery-image
+            img(src='images/gallery3.png', alt='')
+        .inner-gallery
+          .gallery-image
+            img(src='images/gallery4.png', alt='')
+        .inner-gallery
+          .gallery-image
+            img(src='images/gallery5.png', alt='')
+        .inner-gallery
+          .gallery-image
+            img(src='images/gallery6.png', alt='')
+    .enjoy-our-food
+      .food-main-content
+        // Huvudrubrik för avsnittet om mat
+        h1 enjoy our food
+        p
+          | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quidem sit nostrum pariatur perferendis soluta saepe nam eveniet velit exercitationem iusto, molestias sapiente laborum? Hic, eaque. Voluptatum sit incidunt ipsa.
+    .our-menu-food
+      // Huvudrubrik för menyn
+      h1 our menu
+      .main-menu-food
+        .inner-menu-food
+          .menu-food-content
+            // Länk till en bild på en maträtt
+            img(src='easy-choc-hazelnut-pancakes-160639-1.jpg', alt='')
+            .menu-food-text
+              // Namn på maträtten
+              h2 Easy choc-hazelnut pancakes
+              p
+                | quos animi iusto architecto aliquam dignissimos, molestiae tempora doloremque dolores repellendus! Ab, est voluptatem.
+              // Pris för maträtten
+              p
+                span Price / $1.2
+        .inner-menu-food
+          .menu-food-content
+            img(src='may20_sticky-date-pancakes-with-ice-cream-160786-1.jpg', alt='')
+            // Beskrivning av maträtten
+            .menu-food-text
+              h2 Sticky date pancakes with ice cream
+              p
+                | quos animi iusto architecto aliquam dignissimos, molestiae tempora doloremque dolores repellendus! Ab, est voluptatem.
+              p
+                span Price / $1.2
+        .inner-menu-food
+          .menu-food-content
+            img(src='pancakes-158342-3.jpg', alt='')
+            .menu-food-text
+              h2 Fluffy pancakes
+              p
+                | quos animi iusto architecto aliquam dignissimos, molestiae tempora doloremque dolores repellendus! Ab, est voluptatem.
+              p
+                span Price / $1.2
+    .before
+      // detta är en div-element med klassnamnet "before", som sannolikt används för att placera innehåll före något annat element på sidan.
+      img(src='images/before footer.png', alt='')
+      // detta är en img-tag som visar en bild med källan "images/before footer.png". Alt-attributet ger alternativ text som visas om bilden inte kan visas.
+    .footer
+      .main-footer
+        .footer-logo
+          img(src='images/footerlogo.png', alt='')
+      footernav.footer-navbar
+        a(href='index.html') home
+        a(href='menu.html') menu
+        a(href='contact.html') contact
+        a(href='myOrders.html') myOrders
+        // detta är en länk till sidan med användarorder med texten "myOrders".
